@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Curs</title>
+     <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <div class="container">
+        <div id="row1">
+            <select  id="curentOne">
+                <option value="MDL" selected>MDL</option>
+                <option value="EUR" >EURO</option>
+                <option value="USD" >USD</option>
+            </select>
+            <input type="number" id="currentValueOne">
+        </div>
+
+        <p id="rate">1: x</p>
+        <div id="row2">
+            <select  id="curentTwo">
+                <option value="MDL" >MDL</option>
+                <option value="EUR" selected>EURO</option>
+                <option value="USD" >USD</option>
+            </select>
+            <input type="number" id="currentValueTwo" placeholder="Hello">
+        </div>
+        
+        <button id="swap">
+            Change
+        </button>
+    </div>
+   
+    <script src="js.js"></script>
+ </body>
+ </html>
